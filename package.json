@@ -3,8 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -16,9 +22,5 @@
   "bugs": {
     "url": "https://github.com/JoshZepedaUMNStudent/Table-Reservations/issues"
   },
-  "homepage": "https://github.com/JoshZepedaUMNStudent/Table-Reservations#readme",
-  "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.4"
-  }
+  "homepage": "https://github.com/JoshZepedaUMNStudent/Table-Reservations#readme"
 }
